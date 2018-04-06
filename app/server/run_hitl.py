@@ -12,3 +12,6 @@ def model_run():
     results = model.dc_master.get_model_vars_dataframe()
     transposed_results = results.transpose().to_json()
     return transposed_results
+    print (transposed_results)
+   
+model_run()

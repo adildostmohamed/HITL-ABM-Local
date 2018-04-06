@@ -9,13 +9,13 @@ export default class UserTypeChart extends Component {
                 <LineChart
                     data={modelData}
                 >
-                    <Line type="monotone" dataKey="Adopter" stroke="#8884d8" dot={false} />
-                    <Line type="monotone" dataKey="Trialer" stroke="#82ca9d" dot={false} />
-                    <Line type="monotone" dataKey="Potential Trialer" stroke="#000000" dot={false}  />
-                    <Line type="monotone" dataKey="Defector" stroke="#4286f4" dot={false} />
-                    <Line type="monotone" dataKey="Evangelist" stroke="#e5d600" dot={false} />
+                    <Line type="monotone" dataKey="Avg Data Collection Output" stroke="#8884d8" dot={false} />
+                    <Line type="monotone" dataKey="Avg Data Interpretation/Analysis Output" stroke="#82ca9d" dot={false} />
+                    <Line type="monotone" dataKey="Avg Interpreting Actions Output" stroke="#000000" dot={false}  />
+                    <Line type="monotone" dataKey="Avg Coaching Output" stroke="#4286f4" dot={false} />
+                    <Line type="monotone" dataKey="Avg Review Output" stroke="#e5d600" dot={false} />
                     <XAxis dataKey='iteration' type='number' />
-                    <YAxis />
+                    <YAxis/>
                     <Tooltip/>
                     <Legend />
                 </LineChart>

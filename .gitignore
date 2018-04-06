@@ -9,7 +9,8 @@
 /app/server/hitl_model.pyc
 /app/server/server.pyc
 /app/server/man
+/app/server/.DS_Store
 
 /.vscode
 
-/.DS_Store
+.DS_Store

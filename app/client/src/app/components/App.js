@@ -10,10 +10,10 @@ export default class App extends Component {
         <Header />
         <div className='container'>
           <div className='row'>
-            <div className='col col-xs-12 col-sm-4'>
+            <div className='col col-12 col-md-4'>
               <Form />
             </div>
-            <div className='col col-xs-12 col-sm-8'>
+            <div className='col col-12 col-md-8'>
               <Model />
             </div>
           </div>
