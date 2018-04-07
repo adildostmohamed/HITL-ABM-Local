@@ -21,7 +21,7 @@ class Model extends Component {
 
     render () {
         const { modelData } = this.props
-        console.log(modelData)
+
         return (
             <div>
                 <div className='row'>
